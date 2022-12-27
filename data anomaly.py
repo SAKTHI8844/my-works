@@ -45,10 +45,8 @@ if sample_file is not None:
         continue
         #print(i,'column has proper datatype')
      else:
-        a = (i,'column has wrong datatype')
-        st.write(a)
-        new_title = '<p style="font-family:sans-serif; color:Red; font-size: 42px;/p>'
-        st.markdown(new_title, unsafe_allow_html=True)
+         st.write(i,'column has wrong datatype')
+        
     
     
     
